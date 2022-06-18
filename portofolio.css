@@ -1,0 +1,214 @@
+
+body{
+    overflow-x: hidden;
+}
+
+
+.video-container video {
+	min-width: 100%;
+	min-height: 100%;
+  position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	object-fit: cover;
+    filter: brightness(40%);
+
+
+}
+.content {
+	z-index: 2;
+    color: white;
+    position: absolute;
+    top: 40%;
+    text-align: center;
+
+}
+
+
+.content h1{
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Kaushan Script', cursive;
+    font-size: 65px;
+}
+
+.content h3{
+    color: tomato;
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Kaushan Script', cursive;
+}
+.content li i{
+    transition: 0.2s;
+}
+
+.content li i:hover{
+    color: tomato;
+    cursor: pointer;
+}
+
+ .btn:hover{
+    background-color: tomato;
+    border-color: black;
+}
+ /* about me section */
+
+.shadow-tomato{
+    border: 1px solid;
+    box-shadow: 5px 10px tomato;
+}
+
+
+.info-sec .nav-item{
+    background-color: tomato;
+    border-right: 1px solid white;
+
+}
+
+.personal-info ul{
+    list-style: none;
+    
+}
+
+/* skills */
+.progress-bar{
+    background-color: #828282;
+    font-weight: bold;
+}
+.html{
+    animation: progress1 1.5s ;
+}
+.css{
+    animation: progress2 1.5s ;
+
+}
+.js{
+    animation: progress3 1.5s ;
+
+}
+.bootstrap{
+    animation: progress4 1.5s ;
+
+}
+
+@keyframes progress1 {
+   
+    from{width: 0%;}
+    to{width: 98%;}
+  }
+
+  @keyframes progress2 {
+   
+    from{width: 0%;}
+    to{width: 95%;}
+  }
+  @keyframes progress3 {
+   
+    from{width: 0%;}
+    to{width: 80%;}
+  }
+  @keyframes progress4 {
+   
+    from{width: 0%;}
+    to{width: 93%;}
+  }
+
+  /* my work section */
+  #work .layer{
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+}
+
+#work .work-detail{
+    position: relative;
+    top: 60%;
+    transition:  0.5s;
+    -webkit-transition:  0.5s;
+    -moz-transition:  0.5s;
+    -ms-transition:  0.5s;
+    -o-transition:  0.5s;
+}
+
+#work .work-item:hover .layer{
+    opacity:1  ;
+
+}
+#work .work-item:hover .work-detail{
+    top: 0;
+
+}
+
+#work .work-item img{
+   
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+#work .work-item:hover img{
+    transform: scale(1.1) ;
+}
+
+/* contacyt us */
+#contact img{
+    border-radius: 5px;
+    /* transform: translate(); */
+}
+
+
+
+.form-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-group input{
+    width: 48%;
+}
+
+#contact button{
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/****************footer******************/
+#footer{
+    background-color: #212121;
+
+}
+
+#footer button{
+    background-color: #313131;
+    color: lightgray;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+
+
+
+
+   
+
+  
+    
+   
